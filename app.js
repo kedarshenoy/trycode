@@ -19,8 +19,8 @@ app.use("/",routes);
 
 mongose.connect(
   // 'mongodb://localhost:27017/leetcode',
-  'mongodb+srv://kedar:connectionpassword@cluster0.ufsetpy.mongodb.net/leetcode?retryWrites=true&w=majority',
-
+  // 'mongodb+srv://kedar:connectionpassword@cluster0.ufsetpy.mongodb.net/leetcode?retryWrites=true&w=majority',
+    'mongodb+srv://kedar:BT4wnkopzEhXCqMu@cluster0.ufsetpy.mongodb.net/leetcode',
   {
     useNewUrlParser:true,
     useUnifiedTopology:true,
